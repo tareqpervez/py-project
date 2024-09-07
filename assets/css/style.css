@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+
+.banner-bottom li a img{
+    width: 100%;
+    height: 100%;
+}
+.banner-bottom li a {
+    display:inline-block;
+    --size:200px;
+    width: var(--size);
+    height: var(--size);
+}
+.banner-bottom li a:hover {
+    transform: scale(1.03);
+}
+.banner-bottom p {
+    color: white;
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.banner-top p{
+    font-size: 40px; 
+    font-weight: 600;line-height: 
+    1.5; color: #FFFFFF; text-align: center;
+    margin-bottom: 18px;
+}
+.title ,.banner-img{
+    margin-bottom: 64px;
+}
+.banner{
+    padding-top: 103px;
+    padding-bottom: 84px;
+    margin-bottom: 84px;
+    background-image: url(../img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-btn ul li {
+    display: block;
+}
+span.color {
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+    display: flex;
+    justify-content: space-between;
+}
+ul.flex h4 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+li.btn{
+    width: max-content;
+}
+li.btn.one {
+    
+    height: 105px;
+    background-color: #FF0017;
+}
+li.btn.two {
+   
+    height: 105px;
+    background-color: #FF66D4;
+    margin: 15px 0;
+}
+li.btn.three {
+   
+    height: 105px;
+    background-color: #5093FF;
+    margin: 15px 0;
+}
+li.btn.four {
+   
+    height: 106px;
+    background-color: #F7B257;
+    margin: 15px 0;
+}
+li.btn.five {
+  
+    height: 117px;
+    background-color: #CEC0BD;
+    margin: 15px 0;
+}
+.about-area{
+    background-image: url(../img/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    height: 757px;
+}
+.about-btn {
+    padding: 94px 0;
+}
+.h4{
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+}
+.cartoon-1 h4 {
+    padding: 85px 0;
+}
+.cartoon-1 img {
+    max-width: none;
+    width: 100%;
+}
+.cartoon-2 h4 {
+    padding: 85px 0;
+}
+.cartoon-2 img {
+    max-width: none;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+}
+.footer span{
+    padding: 0 10px;
+}
+.footer p {
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #FFFFFF;
+}
